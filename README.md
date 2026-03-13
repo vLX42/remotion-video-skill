@@ -14,7 +14,11 @@ An easy and fun way to highlight a new feature or tool for your users — turn y
 
 A 30s promo generated from a rail operations app. Custom transitions, drag-and-drop animations, music-synced chant overlays. Built entirely from code.
 
-https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_VIDEO_ID
+
+
+https://github.com/user-attachments/assets/b5c4a318-8a95-4bfb-a101-8cd1938630d8
+
+
 
 <!-- To add the video: open an issue on this repo, drag raily-promo.mp4 into the comment box,
      copy the resulting URL, and replace the placeholder above. -->
