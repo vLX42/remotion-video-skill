@@ -16,12 +16,33 @@ An easy and fun way to highlight a new feature or tool for your users — turn y
 
 ## Install
 
+### Claude Code
+
 ```bash
-# Claude Code
 claude skill install vLX42/remotion-video-skill
 ```
 
-For other tools, add the `SKILL.md` to your project's skill directory.
+### GitHub Copilot (VS Code)
+
+Copy the skill into your project's `.github/skills/` directory:
+
+```bash
+# Clone and copy into your project
+git clone https://github.com/vLX42/remotion-video-skill.git /tmp/remotion-video-skill
+mkdir -p .github/skills/remotion-video
+cp /tmp/remotion-video-skill/SKILL.md .github/skills/remotion-video/
+cp -r /tmp/remotion-video-skill/references .github/skills/remotion-video/
+```
+
+Copilot will automatically pick up skills from `.github/skills/` (and `.claude/skills/` if you already have them there).
+
+### GitHub Copilot CLI
+
+```bash
+copilot plugin install vLX42/remotion-video-skill
+```
+
+Or manually place the skill folder in `~/.copilot/skills/remotion-video/`.
 
 ## Usage
 
